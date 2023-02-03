@@ -11,13 +11,14 @@ export default function NavBar() {
 
 
   return (
+    
     <Box
       sx={{
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
         '& > *': {
-          m: 6,
+          m: 2,
         },
       }}
     >

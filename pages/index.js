@@ -4,6 +4,8 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import PageLayOut from '@/components/pagelayout/PageLayOut'
 import NavBar from '@/components/navbar/NavBar'
+import Link from 'next/link'
+import ButtonLinkHome from '@/components/buttons/ButtonLinkHome'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,8 +20,10 @@ export default function Home() {
     <>
       <PageLayOut title='Raiz Carpintería'>
 
-        <header>
+        <header className={styles.header}>
+          <Image src="/next.svg" alt='logoraizcarpinteria' width={110} height={90} priority/>
           <NavBar />
+          <Link href='/'><ButtonLinkHome/></Link>   
         </header>
 
         <main className={styles.main}>
