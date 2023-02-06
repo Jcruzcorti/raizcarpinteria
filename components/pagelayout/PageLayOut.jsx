@@ -10,7 +10,7 @@ function PageLayOut({children,title}) {
     const theme = createTheme({
         palette: {
           primary: {
-            main: '#a97908'
+            main: 'rgb(74, 65, 56)'
           },
         },
       });

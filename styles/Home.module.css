@@ -1,7 +1,10 @@
+.body{
+  background-color: #dbd9cf;
+}
 .header{
  display: flex;
  flex-direction: row;
- justify-content: space-between;
+ justify-content: space-evenly;
  /* gap: 200px; */
  align-items: center; 
  padding: 1rem;
@@ -14,5 +17,30 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+
 }
 
+
+.imglogo{
+  width: 160px;
+  height: auto;
+  margin: 12px;
+}
+
+.imglogo2{
+  width: 120px;
+  height: auto;
+  margin: 6px;
+}
+
+
+.ButtonLinkHome{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
