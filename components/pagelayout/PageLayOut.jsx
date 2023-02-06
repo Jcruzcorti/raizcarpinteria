@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import React from 'react'
 import { ThemeProvider,createTheme } from '@mui/material/styles';
+import NavBar from '../navbar/NavBar'
+import styles from '@/styles/Home.module.css'
 
 
 
@@ -16,7 +18,7 @@ function PageLayOut({children,title}) {
       });
 
   return (
-    <>
+    <div className={styles.body}>
         <ThemeProvider theme={theme}>
             <Head>
                 <title>{title}</title>
@@ -24,12 +26,18 @@ function PageLayOut({children,title}) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
+            <header className={styles.header}>
+              {/* <Image src="/raizlogo.png" alt='logoraizcarpinteria' width={190} height={110} priority className={styles.imglogo}/> */}
+              <NavBar />
+              {/* <Link href='/'><ButtonLinkHome/></Link>    */}
+            </header>
+
             <main>
                 {children}
             </main>
         </ThemeProvider>
         
-    </>
+    </div>
   )
 }
 

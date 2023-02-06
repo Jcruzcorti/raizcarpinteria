@@ -44,3 +44,14 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+.linknavbar{
+  text-decoration: none;
+  color: inherit;
+
+}
+.linknavbar:hover{
+  text-decoration: none;
+  color: inherit;
+
+}

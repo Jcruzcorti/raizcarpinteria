@@ -17,10 +17,18 @@ import Button from '@mui/material/Button';
 import Image from 'next/image';
 import styles from '@/styles/Home.module.css'
 import Link from 'next/link';
-import ButtonLinkHome from '../buttons/ButtonLinkHome';
+
 
 const drawerWidth = 220;
-const navItems = ['INICIO', 'CATEGORÍAS', 'SOBRE NOSOTORS',  'CONTACTO'];
+const navItems = [
+ <Link href='/' className={styles.linknavbar} key={1}>INICIO</Link>,
+ <Link href='/categorias' className={styles.linknavbar} key={2}>CATEGORÍAS</Link>, 
+ <Link href='/sobrenosotros' className={styles.linknavbar} key={3}>SOBRE NOSOTROS</Link>,  
+ <Link href='/contacto' className={styles.linknavbar } key={4}>CONTACTO</Link>
+];
+
+
+
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -39,8 +47,8 @@ function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
+        {navItems.map((item,key) => (
+          <ListItem key={key} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
               <ListItemText primary={item} />
             </ListItemButton>
@@ -86,8 +94,8 @@ function DrawerAppBar(props) {
           </Typography>
           
           <Box sx={{ display: { xs: 'none', sm: 'block' ,marginRight:""} }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: 'rgb(74, 65, 56)', }}>
+            {navItems.map((item, key) => (
+              <Button key={key} sx={{ color: 'rgb(74, 65, 56)', }}>
                 {item}
               </Button>
             ))}
