@@ -38,9 +38,6 @@ export default function Home() {
           <Link href='/'><ButtonLinkHome/></Link>   
         </div>
 
-        <footer>
-
-        </footer>
       {/* </PageLayOut> */}
       
     </>

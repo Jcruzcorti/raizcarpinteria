@@ -1,5 +1,7 @@
 .body{
   background-color: #dbd9cf;
+  /* padding: 0 2rem; */
+
 }
 .header{
  display: flex;
@@ -53,5 +55,50 @@
 .linknavbar:hover{
   text-decoration: none;
   color: inherit;
+
+}
+
+
+.imgCarousel{
+  border-radius: 4px;
+}
+
+.imgListCarousel{
+  margin: 10px;
+}
+
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0;
+  border-top: 0.2px solid #4c4c4c;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0cec6;
+}
+
+
+.footerImgs{
+  width: 32px;
+  height: auto;
+  padding-left: 5px;
+}
+
+
+.pFooter{
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 16px;
+  color: #141414;
+  margin: 0;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-decoration: none;
 
 }

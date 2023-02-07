@@ -3,6 +3,7 @@ import React from 'react'
 import { ThemeProvider,createTheme } from '@mui/material/styles';
 import NavBar from '../navbar/NavBar'
 import styles from '@/styles/Home.module.css'
+import Footer from '../footer/Footer';
 
 
 
@@ -35,6 +36,10 @@ function PageLayOut({children,title}) {
             <main>
                 {children}
             </main>
+
+            <footer >
+              <Footer/>
+            </footer>
         </ThemeProvider>
         
     </div>

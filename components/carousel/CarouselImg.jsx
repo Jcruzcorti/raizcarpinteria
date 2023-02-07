@@ -3,13 +3,16 @@ import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
+import styles from '@/styles/Home.module.css'
+
+
 
 export default function CarouselImg() {
   return (
-    <Box sx={{ width: 600, height: 650, overflowY: 'scroll',  }}>
-      <ImageList variant="masonry" cols={2} gap={8}>
+    <Box sx={{ width: 700, height: 550, overflowY: 'scroll', my: 1  }}>
+      <ImageList variant="masonry" cols={2} gap={8} >
         {itemData.map((item) => (
-          <ImageListItem key={item.img}>
+          <ImageListItem key={item.img} className={styles.imgListCarousel}>
             <img
               src={`${item.img}?w=248&fit=crop&auto=format`}
               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
@@ -17,6 +20,8 @@ export default function CarouselImg() {
               loading="lazy"
               width={700}
               height={650}
+              className={styles.imgCarousel}
+              
             />
             <ImageListItemBar position="below" title={item.author} />
           </ImageListItem>
