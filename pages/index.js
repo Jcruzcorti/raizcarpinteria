@@ -10,6 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Category from './categorias'
 import Carousel from '@/components/carousel/CarouselImg'
 import CarouselImg from '@/components/carousel/CarouselImg'
+import InformationIndex from '@/components/information/InformationHome'
+import InformationHome from '@/components/information/InformationHome'
 
 
 
@@ -32,7 +34,9 @@ export default function Home() {
           {/* <Category/> */}
           <h1>INICIO</h1>
           <CarouselImg/> 
+          
         </main>
+        <InformationHome/>
 
         <div className={styles.ButtonLinkHome}>
           <Link href='/'><ButtonLinkHome/></Link>   

@@ -9,7 +9,7 @@ import styles from '@/styles/Home.module.css'
 
 export default function CarouselImg() {
   return (
-    <Box sx={{ width: 700, height: 550, overflowY: 'scroll', my: 1  }}>
+    <Box sx={{ width: 900, height: 600, overflowY: 'scroll', my: 1  }}>
       <ImageList variant="masonry" cols={2} gap={8} >
         {itemData.map((item) => (
           <ImageListItem key={item.img} className={styles.imgListCarousel}>
