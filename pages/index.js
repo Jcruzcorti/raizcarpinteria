@@ -8,6 +8,8 @@ import Link from 'next/link'
 import ButtonLinkHome from '@/components/buttons/ButtonLinkHome'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Category from './categorias'
+import Carousel from '@/components/carousel/CarouselImg'
+import CarouselImg from '@/components/carousel/CarouselImg'
 
 
 
@@ -29,6 +31,7 @@ export default function Home() {
         <main className={styles.main}>
           {/* <Category/> */}
           <h1>INICIO</h1>
+          <CarouselImg/> 
         </main>
 
         <div className={styles.ButtonLinkHome}>
