@@ -74,7 +74,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #555555;
-  padding: 30px;
+  padding: 70px;
   
 }
 
@@ -111,6 +111,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+.prueba{color: #dbd9cf;}
 
 
 

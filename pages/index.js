@@ -6,7 +6,7 @@ import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/navbar/NavBar'
 import Link from 'next/link'
 import ButtonLinkHome from '@/components/buttons/ButtonLinkHome'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Category from './categorias'
 import Carousel from '@/components/carousel/CarouselImg'
 import CarouselImg from '@/components/carousel/CarouselImg'
