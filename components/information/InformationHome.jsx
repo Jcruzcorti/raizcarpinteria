@@ -23,7 +23,7 @@ function InformationHome() {
 
       <div className={styles.informationText}  data-aos="fade-right">
         <h2 className={styles.prueba}>Raiz Carpintería de diseño</h2>
-        <h4 className={styles.prueba}>assssssssssssssssssssss</h4>
+        <h4 className={styles.prueba}>aaaaaaaaaaaaaaaaaaaaaaa</h4>
         <h5 className={styles.prueba}>aaaaaaaaaaaaaaaaaaaaaaa</h5>
         <h5 className={styles.prueba}>aaaaaaaaaaaaaaaaaaaaaaa</h5>
         <h5 className={styles.prueba}>aaaaaaaaaaaaaaaaaaaaaaa</h5>
