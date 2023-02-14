@@ -118,17 +118,17 @@
 
 
 .divItemList{
-  /* display: flex;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; */
-  margin-top: 50px;
+  align-items: center;
+
 
 }
 
 .divItemListContainer{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -136,6 +136,12 @@
   /* max-width: 100vw;  */
 }
 
+.divItemListSelect{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
 
 .divItem{
   display: flex;
