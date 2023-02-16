@@ -33,8 +33,14 @@ function ItemListContainer() {
   
     <div className={styles.divItemListContainer}>
       {/* <AutoComplete /> */}
-      
       <ItemListSelect items={products}/>
+      {/* {
+        products===[]
+        ?null
+        :<ItemList items={products}/>
+      } */}
+      {/* <ItemListSelect items={products}/>
+      <ItemList items={products}/> */}
       {/* {
         showProducts
         ?<ItemList items={products}/>

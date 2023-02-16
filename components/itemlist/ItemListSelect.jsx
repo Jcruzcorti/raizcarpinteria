@@ -58,17 +58,33 @@ export default function ItemListSelect({items}) {
             <MenuItem value={"c"}>c</MenuItem>
           </Select>
       </FormControl>
-
+      {/* {
+        category===('All')
+        ?null
+        :<ItemList items={items}/>
+      } */}
 
     </div>
 
 
       <Grid container spacing={2} justifyContent='center' gap={5} my={1}>
      
-        {filterData.map((item)=>(
-              <Item key={item.id} item={item}/>
-          ))}
+        {category===('All')
+          ?items.map((item)=>(
+            <Item key={item.id} item={item}/>
+            ))
+          :filterData.map((item)=>(
+                <Item key={item.id} item={item}/>
+            ))
+        }
       </Grid>
+
+
+      {/* {
+        category===('All')
+        ?null
+        :<ItemList />
+      } */}
     </div>
   );
 }
