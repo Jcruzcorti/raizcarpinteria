@@ -78,7 +78,7 @@ function DrawerAppBar(props) {
           {
             mobileOpen
             ?null
-            :<Image src="/raizlogo.png" alt='logoraizcarpinteria' width={190} height={110} priority className={styles.imglogo2}/>
+            :<Link href='/'><Image src="/raizlogo.png" alt='logoraizcarpinteria' width={190} height={110} priority className={styles.imglogo2}/></Link>
           }
               
           <Typography

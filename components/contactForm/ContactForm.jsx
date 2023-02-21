@@ -154,7 +154,7 @@ function ContactForm() {
 
 <div data-aos="flip-left" className={styles.divContactForm} >
     <form action="" ref={form} onSubmit={sendEmail}>
-        <Grid container spacing={2} justifyContent='center' gap={4} my={4} >
+        <Grid container spacing={2} justifyContent='center' gap={2} my={0} >
                 <Grid md={6} item={true}>
                     
                         
@@ -182,7 +182,7 @@ function ContactForm() {
 
                 <Grid md={6} item={true}>
                     <FormControl fullWidth>
-                    <InputLabel htmlFor="my-input">Escribe tu mensaje aquí </InputLabel>
+                    <InputLabel htmlFor="my-input">Escribe tu mensaje </InputLabel>
                         <Input id="my-inputa" aria-describedby="my-helper-texta" multiline onChange={handleChange} type="text" name='mensaje' />
                         <FormHelperText id="my-helper-texta">Campo requerido</FormHelperText>
                     </FormControl>
