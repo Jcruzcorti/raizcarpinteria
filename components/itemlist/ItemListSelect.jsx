@@ -39,7 +39,7 @@ export default function ItemListSelect({items}) {
   return (
     <div className={styles.divItemList}>
     <div className={styles.divItemListSelect}>
-      <FormControl variant="filled" sx={{ m: 0, minWidth: 300 }}>
+      <FormControl variant="standard" sx={{ m: 5, minWidth: 300 }}>
           <InputLabel id="demo-simple-select-standard-label">Categorías</InputLabel>
           <Select
             labelId="demo-simple-select-standard-label"
@@ -53,9 +53,11 @@ export default function ItemListSelect({items}) {
             <MenuItem value={'All'}>
               <em>All</em>
             </MenuItem>
-            <MenuItem value={"a"}>a</MenuItem>
-            <MenuItem value={"b"}>b</MenuItem>
-            <MenuItem value={"c"}>c</MenuItem>
+            <MenuItem value={"Cocina"}>Cocina</MenuItem>
+            <MenuItem value={"Vestidor"}>Vestidor</MenuItem>
+            <MenuItem value={"Baño"}>Baño</MenuItem>
+            <MenuItem value={"Estudio"}>Estudio</MenuItem>
+            <MenuItem value={"Living"}>Living</MenuItem>
           </Select>
       </FormControl>
       {/* {

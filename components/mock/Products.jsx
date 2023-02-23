@@ -4,7 +4,7 @@ export const productsData = [
       img: '/ropero.jpeg',
       title: 'Bed',
       author: 'Ropero',
-      category: 'a',
+      category: 'Cocina',
       description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -12,7 +12,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'a',
+        category: 'Cocina',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -20,7 +20,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'a',
+        category: 'Cocina',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -28,7 +28,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'a',
+        category: 'Cocina',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -36,7 +36,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'b',
+        category: 'Vestidor',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -44,7 +44,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'b',
+        category: 'Vestidor',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -52,7 +52,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'b',
+        category: 'Vestidor',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -60,7 +60,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'b',
+        category: 'Vestidor',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -68,7 +68,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'b',
+        category: 'Baño',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -76,7 +76,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'c',
+        category: 'Baño',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -84,7 +84,7 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'c',
+        category: 'Baño',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
     {
@@ -92,7 +92,63 @@ export const productsData = [
         img: '/ropero.jpeg',
         title: 'Bed',
         author: 'Ropero',
-        category: 'c',
+        category: 'Baño',
+        description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
+    },
+    {
+        id: 13,
+        img: '/ropero.jpeg',
+        title: 'Bed',
+        author: 'Ropero',
+        category: 'Estudio',
+        description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
+    },
+    {
+        id: 14,
+        img: '/ropero.jpeg',
+        title: 'Bed',
+        author: 'Ropero',
+        category: 'Estudio',
+        description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
+    },
+    {
+        id: 15,
+        img: '/ropero.jpeg',
+        title: 'Bed',
+        author: 'Ropero',
+        category: 'Estudio',
+        description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
+    },
+    {
+        id: 16,
+        img: '/ropero.jpeg',
+        title: 'Bed',
+        author: 'Ropero',
+        category: 'Living',
+        description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
+    },
+    {
+        id: 17,
+        img: '/ropero.jpeg',
+        title: 'Bed',
+        author: 'Ropero',
+        category: 'Living',
+        description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
+    },
+    {
+        id: 18,
+        img: '/ropero.jpeg',
+        title: 'Bed',
+        author: 'Ropero',
+        category: 'Living',
+        description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
+    },
+    {
+        id: 19,
+        img: '/ropero.jpeg',
+        title: 'Bed',
+        author: 'Ropero',
+        category: 'Living',
         description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
     },
   ];

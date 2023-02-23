@@ -130,30 +130,30 @@
 //   ];
 
 
-import React from 'react';
-import InputLabel from '@mui/material/InputLabel';
+// import React from 'react';
+// import InputLabel from '@mui/material/InputLabel';
 
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+// import FormControl from '@mui/material/FormControl';
+// import Select from '@mui/material/Select';
 
-export default function GroupedSelect({item}) {
-  return (
-    <div>
-      <FormControl sx={{ m: 2, minWidth: 170 }}>
-        <InputLabel htmlFor="grouped-native-select">Categorías</InputLabel>
-        <Select native defaultValue="" id="grouped-native-select" label="Categorías">
-          <option aria-label="None" value="" />
-          <optgroup label="Roperos 1">
-            <option value={1}>a</option>
-            <option value={2}>a</option>
-          </optgroup>
-          <optgroup label="Roperos 2">
-            <option value={3}>b</option>
-            <option value={4}>b</option>
-          </optgroup>
-        </Select>
-      </FormControl>
+// export default function GroupedSelect({item}) {
+//   return (
+//     <div>
+//       <FormControl sx={{ m: 2, minWidth: 170 }}>
+//         <InputLabel htmlFor="grouped-native-select">Categorías</InputLabel>
+//         <Select native defaultValue="" id="grouped-native-select" label="Categorías">
+//           <option aria-label="None" value="" />
+//           <optgroup label="Roperos 1">
+//             <option value={1}>a</option>
+//             <option value={2}>a</option>
+//           </optgroup>
+//           <optgroup label="Roperos 2">
+//             <option value={3}>b</option>
+//             <option value={4}>b</option>
+//           </optgroup>
+//         </Select>
+//       </FormControl>
       
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
