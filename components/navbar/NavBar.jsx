@@ -23,7 +23,7 @@ const drawerWidth = 220;
 const navItems = [
  <Link href='/' className={styles.linknavbar} key={1}>INICIO</Link>,
  <Link href='/categorias' className={styles.linknavbar} key={2}>CATEGORÍAS</Link>, 
- <Link href='/sobrenosotros' className={styles.linknavbar} key={3}>SOBRE NOSOTROS</Link>,  
+//  <Link href='/sobrenosotros' className={styles.linknavbar} key={3}>SOBRE NOSOTROS</Link>,  
  <Link href='/contacto' className={styles.linknavbar } key={4}>CONTACTO</Link>
 ];
 

@@ -22,9 +22,9 @@ export default function ItemCard({item}) {
                 {item.category}
                 </Typography> */}
 
-    <Card sx={{maxWidth: 300, my: 2, }} elevation={6}  >
+    <Card sx={{maxWidth: 300, my: 2, }} elevation={6} >
         
-        <CardActionArea >
+        {/* <CardActionArea > */}
           <CardMedia
             component="img"
             height="300"
@@ -42,7 +42,7 @@ export default function ItemCard({item}) {
               {item.description}
             </Typography>
           </CardContent>
-        </CardActionArea>
+        {/* </CardActionArea> */}
       </Card>
 
 

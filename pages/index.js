@@ -12,6 +12,7 @@ import Carousel from '@/components/carousel/CarouselImg'
 import CarouselImg from '@/components/carousel/CarouselImg'
 import InformationIndex from '@/components/information/InformationHome'
 import InformationHome from '@/components/information/InformationHome'
+import AboutUs from '@/components/information/AboutUs'
 
 
 
@@ -36,6 +37,7 @@ export default function Home() {
           <CarouselImg/> 
           
         </main>
+        <AboutUs/>
         <InformationHome/>
 
         <div className={styles.ButtonLinkHome}>

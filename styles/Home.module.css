@@ -21,6 +21,20 @@
 
 }
 
+.h2{
+  font-size: 23px;
+
+}
+.h3{
+  font-size: 20px;
+
+  
+}
+.h4{
+  font-size: 16px;
+
+}
+
 
 .imglogo{
   width: 160px;
@@ -95,7 +109,7 @@
   height: auto;
   padding: 5px;
   text-decoration: none;
-  color: #baac78;
+  color: #b59b81;
 }
 .imgSocialMedia2{
   width: 38px;
@@ -112,7 +126,11 @@
   align-items: center;
 }
 
-.prueba{color: #dbd9cf;}
+.prueba{
+  /* color: #dbd9cf;
+  color: #c6a88b; */
+  color: #b59b81;
+}
 
 
 
@@ -155,6 +173,19 @@
   
 
 }
+
+.divAboutUs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6rem;
+  text-align:center;
+}
+
+/* .divAboutUsText{
+
+} */
 
 /* .divContactForm{ */
   /* border: 1px solid #141414; */

@@ -22,13 +22,13 @@ import Link from 'next/link';
 
 export default function Item({item}) {
 
- const urlDetail = `/categorias/${item.id}`
+//  const urlDetail = `/categorias/${item.id}`
   return (
     <div>
       {/* <AutoComplete item={item}/> */}
-      <Link href={urlDetail}>
+      {/* <Link href={urlDetail}> */}
         <ItemCard item={item}/>
-      </Link>
+      {/* </Link> */}
       
     </div>
   );
