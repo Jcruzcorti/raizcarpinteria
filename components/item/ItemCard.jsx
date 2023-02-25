@@ -6,6 +6,8 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
+import ImgModal from './ImgModal';
+
 // import { Box } from '@mui/system';
 
 
@@ -13,7 +15,7 @@ import styles from '@/styles/Home.module.css'
 
 export default function ItemCard({item}) {
   
-  
+
 
 
   return (
@@ -22,16 +24,18 @@ export default function ItemCard({item}) {
                 {item.category}
                 </Typography> */}
 
-    <Card sx={{maxWidth: 300, my: 2, }} elevation={6} >
+    <Card sx={{maxWidth: 300, my: 2, }} elevation={6}>
         
         {/* <CardActionArea > */}
+       
           <CardMedia
             component="img"
             height="300"
             image={item.img}
             alt="mueble"
           />
-          <CardContent>
+          
+          <CardContent sx={{ '&:last-child': { pb: 1, pt: 1, }}}>
           <Typography gutterBottom variant="h5" component="div">
               {item.title}
             </Typography>
@@ -41,6 +45,8 @@ export default function ItemCard({item}) {
             <Typography variant="body2" color="text.secondary">
               {item.description}
             </Typography>
+
+            <ImgModal/>
           </CardContent>
         {/* </CardActionArea> */}
       </Card>

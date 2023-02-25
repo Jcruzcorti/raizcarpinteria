@@ -33,7 +33,7 @@ export default function Home() {
 
         <main className={styles.main}>
           {/* <Category/> */}
-          <h1>INICIO</h1>
+          <h1 className={styles.TextHome}>INICIO</h1>
           <CarouselImg/> 
           
         </main>

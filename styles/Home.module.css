@@ -127,9 +127,48 @@
 }
 
 .prueba{
-  /* color: #dbd9cf;
-  color: #c6a88b; */
-  color: #b59b81;
+  color: #dbd9cf;
+  /* color: #c6a88b;
+  color: #b59b81; */
+}
+
+.TextHome {
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+ @-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+            transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
 }
 
 
@@ -181,10 +220,11 @@
   align-items: center;
   padding-bottom: 6rem;
   text-align:center;
+  
 }
 
 /* .divAboutUsText{
-
+  max-width:90%;
 } */
 
 /* .divContactForm{ */

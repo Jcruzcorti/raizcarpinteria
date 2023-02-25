@@ -17,17 +17,17 @@ function AboutUs() {
   return (
     <div data-aos="zoom-in-down" className={styles.divAboutUs}>
         {/* <h2 className={styles.h2}>SOBRE NOSOTROS</h2> */}
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h4" component="div">
           SOBRE NOSOTROS
         </Typography>
         <div className={styles.divAboutUsText}>
-          <Typography gutterBottom variant="h7" component="div">
-            Somos una fábrica jóven comprometida con lo que nos apasiona
+          <Typography gutterBottom variant="h6" component="div">
+            Somos una fábrica jóven y comprometida con lo que nos apasiona
           </Typography>
-          <Typography gutterBottom variant="h8" component="div">
+          <Typography gutterBottom variant="h7" component="div">
             Creamos cocinas, vestidores y placares buscando generar espacios en los que siempre se quiera volver
           </Typography>
-          <Typography gutterBottom variant="h8" component="div">
+          <Typography gutterBottom variant="h7" component="div">
             Diseñamos a medida cada proyecto respetando las necesidades de cada cliente
           </Typography>
             {/* <h3 className={styles.h3}>Somos una fábrica jóven comprometida con lo que nos apasiona</h3>

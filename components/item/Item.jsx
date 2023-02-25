@@ -27,6 +27,7 @@ export default function Item({item}) {
     <div>
       {/* <AutoComplete item={item}/> */}
       {/* <Link href={urlDetail}> */}
+      
         <ItemCard item={item}/>
       {/* </Link> */}
       
