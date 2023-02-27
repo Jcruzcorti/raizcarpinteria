@@ -3,6 +3,7 @@ import ButtonLinkHome from '@/components/buttons/ButtonLinkHome'
 import Link from 'next/link'
 import styles from '@/styles/Home.module.css'
 import ItemListContainer from '@/components/ItemListContainer'
+import { Typography } from '@mui/material'
 
 
 function Categorias() {
@@ -12,7 +13,10 @@ function Categorias() {
     <>
 
         <main className={styles.main}>
-          <h1>CATEGORIAS</h1>
+        <Typography gutterBottom variant="h4" component="div" >
+            CATEGORÍAS
+          </Typography>
+          {/* <h1>CATEGORIAS</h1> */}
           <ItemListContainer/>
         </main>
         <div className={styles.ButtonLinkHome}>

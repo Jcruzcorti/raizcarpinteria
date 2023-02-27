@@ -54,10 +54,10 @@ export default function ItemListSelect({items}) {
               <em>All</em>
             </MenuItem>
             <MenuItem value={"Cocina"}>Cocina</MenuItem>
-            <MenuItem value={"Vestidor"}>Vestidor</MenuItem>
+            <MenuItem value={"Habitación"}>Habitación</MenuItem>
             <MenuItem value={"Baño"}>Baño</MenuItem>
-            <MenuItem value={"Estudio"}>Estudio</MenuItem>
-            <MenuItem value={"Living"}>Living</MenuItem>
+            <MenuItem value={"Oficina"}>Oficina</MenuItem>
+            {/* <MenuItem value={"Living"}>Living</MenuItem> */}
           </Select>
       </FormControl>
       {/* {

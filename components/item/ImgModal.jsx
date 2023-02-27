@@ -23,7 +23,7 @@ export default function ImgModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen} variant="outline" style={{margin: '0 auto', display: "flex", padding:'10px'}}>Ver más fotos</Button>
+      <Button onClick={handleOpen} variant="outline" style={{margin: '0 auto', display: "flex", padding:'10px'}}>Ver más</Button>
       <Modal
         open={open}
         onClose={handleClose}

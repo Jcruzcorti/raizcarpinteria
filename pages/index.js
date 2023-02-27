@@ -13,6 +13,7 @@ import CarouselImg from '@/components/carousel/CarouselImg'
 import InformationIndex from '@/components/information/InformationHome'
 import InformationHome from '@/components/information/InformationHome'
 import AboutUs from '@/components/information/AboutUs'
+import { Typography } from '@mui/material'
 
 
 
@@ -33,7 +34,10 @@ export default function Home() {
 
         <main className={styles.main}>
           {/* <Category/> */}
-          <h1 className={styles.TextHome}>INICIO</h1>
+          <Typography gutterBottom variant="h4" component="div">
+            RAIZ CARPINTERÍA
+          </Typography>
+          {/* <h1 className={styles.TextHome}>INICIO</h1> */}
           <CarouselImg/> 
           
         </main>

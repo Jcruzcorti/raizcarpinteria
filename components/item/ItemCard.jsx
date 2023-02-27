@@ -39,9 +39,9 @@ export default function ItemCard({item}) {
           <Typography gutterBottom variant="h5" component="div">
               {item.title}
             </Typography>
-            <Typography gutterBottom variant="h6" component="div">
-              {item.category}
-            </Typography>
+            {/* <Typography gutterBottom variant="h6" component="div">
+              {item.author}
+            </Typography> */}
             <Typography variant="body2" color="text.secondary">
               {item.description}
             </Typography>
