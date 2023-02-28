@@ -46,7 +46,7 @@ export default function ItemCard({item}) {
               {item.description}
             </Typography>
 
-            <ImgModal/>
+            <ImgModal item={item.img}/>
           </CardContent>
         {/* </CardActionArea> */}
       </Card>

@@ -35,7 +35,7 @@ export default function Home() {
         <main className={styles.main}>
           {/* <Category/> */}
           <Typography gutterBottom variant="h4" component="div">
-            RAIZ CARPINTERÍA
+            RAIZ CARPINTERÍA DE DISEÑO
           </Typography>
           {/* <h1 className={styles.TextHome}>INICIO</h1> */}
           <CarouselImg/> 

@@ -126,8 +126,13 @@
   align-items: center;
 }
 
-.prueba{
+.linkContact:hover{
+color: #c6a88b;
+}
+
+.textInformationHome{
   color: #dbd9cf;
+  margin: 0;
   /* color: #c6a88b;
   color: #b59b81; */
 }
@@ -136,6 +141,32 @@
 	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
+
+.textContact{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  margin: 20px;
+  text-align: center;
+  max-width: 650px;
+  /* padding: 10rem;
+ 
+  min-width:300px; */
+
+}
+
+.imgModalExpand{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 450px;
+  
+}
+
+
 
 
  @-webkit-keyframes tracking-in-expand-fwd {

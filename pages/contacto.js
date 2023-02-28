@@ -13,6 +13,14 @@ function Contacto() {
         <Typography gutterBottom variant="h4" component="div">
           CONTACTO
         </Typography>
+        <Typography 
+          gutterBottom variant="h7" 
+          component="div"  
+          className={styles.textContact} 
+          // data-aos="flip-left">
+          >
+          A continuación podrás enviar tu consulta sobre cualquiera de nuestros productos en la web o alguna idea personalizada y nuestro equipo te contestará a la brevedad
+        </Typography>
           {/* <h1>CONTACTO</h1> */}
           <ContactForm/>
         </main>
