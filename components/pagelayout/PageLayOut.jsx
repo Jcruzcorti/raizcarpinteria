@@ -4,20 +4,13 @@ import { ThemeProvider,createTheme } from '@mui/material/styles';
 import NavBar from '../navbar/NavBar'
 import styles from '@/styles/Home.module.css'
 import Footer from '../footer/Footer';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
 
 function PageLayOut({children,title}) {
 
-    // const theme = createTheme({
-    //     palette: {
-    //       primary: {
-    //         main: 'rgb(74, 65, 56)'
-    //       },
-    //     },
-    //   });
 
   return (
     <>

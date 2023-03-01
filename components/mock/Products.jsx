@@ -5,7 +5,8 @@ export const productsData = [
       title: 'Cocina',
       author: 'Sistema Gola',
       category: 'Cocina',
-      description: 'Sistema Gola. Colores blanco laca combinado con Roble Kendal'
+      description: 'Sistema Gola. Colores blanco laca combinado con Roble Kendal',
+      hasMorePhotos: false,
     },
     // {
     //     id: 2,
@@ -37,7 +38,8 @@ export const productsData = [
         title: 'Habitación',
         author: 'Cama niño',
         category: 'Habitación',
-        description: ' Cama niño de Madera maciza Cama niño de Madera maciza'
+        description: ' Cama niño de Madera maciza Cama niño de Madera maciza',
+        hasMorePhotos: false,
     },
     {
         id: 3,
@@ -45,7 +47,8 @@ export const productsData = [
         title: 'Habitación',
         author: 'Sistema Gola',
         category: 'Habitación',
-        description: 'Sistema Gola. Color Paraíso combinado con blanco laca'
+        description: 'Sistema Gola. Color Paraíso combinado con blanco laca',
+        hasMorePhotos: false,
     },
     {
         id: 4,
@@ -53,24 +56,30 @@ export const productsData = [
         title: 'Habitación',
         author: 'Ropero',
         category: 'Habitación',
-        description: 'Respaldar color Atakama combinado blanco'
+        description: 'Respaldar color Atakama combinado blanco',
+        hasMorePhotos: false,
     },
 
     {
         id: 5,
         img: '/placard1a.jpeg',
+        img2: '/placard1b.jpeg',
+        img3: '/placard1c.jpeg',
         title: 'Placard',
         author: 'Ropero',
         category: 'Habitación',
-        description: 'Sistema corredizo. Colores Helsinkicombinado con blanco'
+        description: 'Sistema corredizo. Colores Helsinkicombinado con blanco',
+        hasMorePhotos: true,
     },
     {
         id: 6,
         img: '/placard2a.jpeg',
+        img2: '/placard2b.jpeg',
         title: 'Placard',
         author: 'Ropero',
         category: 'Habitación',
-        description: 'Sistema corredizo. Colores Lino Chiaro combinado con blanco'
+        description: 'Sistema corredizo. Colores Lino Chiaro combinado con blanco',
+        hasMorePhotos: true,
     },
         {
         id: 7,
@@ -78,7 +87,8 @@ export const productsData = [
         title: 'Baño',
         author: 'Ropero',
         category: 'Baño',
-        description: 'aaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaa'
+        description: 'aaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaa',
+        hasMorePhotos: false,
     },
     {
         id: 8,
@@ -86,7 +96,8 @@ export const productsData = [
         title: 'Oficina',
         author: 'Ropero',
         category: 'Oficina',
-        description: 'Sistema push y corredizo. Colores Teka Artico combinado con blanco'
+        description: 'Sistema push y corredizo. Colores Teka Artico combinado con blanco',
+        hasMorePhotos: false,
     },
     {
         id: 9,
@@ -94,7 +105,8 @@ export const productsData = [
         title: 'Oficina',
         author: 'Ropero',
         category: 'Oficina',
-        description: 'Consultorio con Sistema Gola. Colores Blanco'
+        description: 'Consultorio con Sistema Gola. Colores Blanco',
+        hasMorePhotos: false,
     },
     {
         id: 10,
@@ -102,7 +114,8 @@ export const productsData = [
         title: 'Oficina',
         author: 'Ropero',
         category: 'Oficina',
-        description: 'Escritorio cajonera de recepción. Colores Gaudi varillado, Torano combinado Blanco'
+        description: 'Escritorio cajonera de recepción. Colores Gaudi varillado, Torano combinado Blanco',
+        hasMorePhotos: false,
     },
     // {
     //     id: 16,
