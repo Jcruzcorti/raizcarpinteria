@@ -21,6 +21,10 @@
 
 }
 
+/* .logoRaiz{
+  width: 100%;
+} */
+
 .h2{
   font-size: 23px;
 
@@ -161,8 +165,8 @@ color: #c6a88b;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
-  height: 450px;
+  width: 450px;
+  height: 500px;
   
 }
 

@@ -110,7 +110,8 @@ export const productsData = [
     },
     {
         id: 10,
-        img: '/oficina3.jpeg',
+        img: '/oficina3a.jpeg',
+        img2: '/oficina3b.jpeg',
         title: 'Oficina',
         author: 'Ropero',
         category: 'Oficina',
