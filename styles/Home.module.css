@@ -16,6 +16,19 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  
+}
+.main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-image: url(../public/baner.png);
+  background-size: contain;
+  
+  /* margin-bottom: 50px; */
 
   
 
@@ -253,8 +266,9 @@ color: #c6a88b;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 6rem;
+  padding: 3rem;
   text-align:center;
+  margin: 100px;
   
 }
 

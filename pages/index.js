@@ -14,6 +14,7 @@ import InformationIndex from '@/components/information/InformationHome'
 import InformationHome from '@/components/information/InformationHome'
 import AboutUs from '@/components/information/AboutUs'
 import { Typography } from '@mui/material'
+import Image from 'next/image'
 
 
 
@@ -32,15 +33,18 @@ export default function Home() {
 
 
 
-        <main className={styles.main}>
+        <main className={styles.main2} >
           {/* <Category/> */}
-          <Typography gutterBottom variant="h4" component="div">
+          {/* <Typography gutterBottom variant="h4" component="div">
             RAIZ CARPINTERÍA DE DISEÑO
-          </Typography>
-          {/* <h1 className={styles.TextHome}>INICIO</h1> */}
-          <CarouselImg/> 
+          </Typography> */}
+
+
+          {/* <CarouselImg/>  */}
           
+          {/* <Image src="/baner.png" alt='banerraizcarpinteria' width={1000} height={500} priority /> */}
         </main>
+        
         <AboutUs/>
         <InformationHome/>
 
