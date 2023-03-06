@@ -13,6 +13,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background-color: #dbd9cf;
   
 }
 .main2 {
@@ -25,6 +26,7 @@
   background-image: url(../public/baner.png);
   background-size: cover;
   background-repeat: no-repeat;
+  
 
 }
 
@@ -432,6 +434,7 @@ color: #c6a88b;
     .textInformationHome{
       color: #dbd9cf;
       margin: 0;
+      padding:0;
     }
     
     .TextHome {
@@ -533,7 +536,7 @@ color: #c6a88b;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-      padding: 0rem;
+      padding: 0;
       text-align:center;
       padding: 0px;
     
