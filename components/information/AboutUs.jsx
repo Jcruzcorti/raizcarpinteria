@@ -15,8 +15,7 @@ function AboutUs() {
   });
 
   return (
-    <div data-aos="zoom-in-down" className={styles.divAboutUs}>
-        {/* <h2 className={styles.h2}>SOBRE NOSOTROS</h2> */}
+    <div  className={styles.divAboutUs}>
         <Typography gutterBottom variant="h4" component="div">
           SOBRE NOSOTROS
         </Typography>
@@ -30,9 +29,6 @@ function AboutUs() {
           <Typography gutterBottom variant="h7" component="div">
             Diseñamos a medida cada proyecto respetando las necesidades de cada cliente
           </Typography>
-            {/* <h3 className={styles.h3}>Somos una fábrica jóven comprometida con lo que nos apasiona</h3>
-            <h4 className={styles.h4}>Creamos cocinas, vestidores y placares buscando generar espacios en los que siempre se quiera volver </h4>
-            <h4 className={styles.h4}>Diseñamos a medida cada proyecto respetando las necesidades de cada cliente</h4> */}
         </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef,useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import { Button, FormControl, FormHelperText, Grid, Input, InputLabel, TextField } from '@mui/material'
+import { Button, FormControl, FormHelperText, Grid, Input, InputLabel } from '@mui/material'
 import styles from '@/styles/Home.module.css'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
@@ -156,9 +156,6 @@ function ContactForm() {
     <form action="" ref={form} onSubmit={sendEmail}>
         <Grid container spacing={2} justifyContent='center' gap={2} my={0} >
                 <Grid md={6} item={true}>
-                    
-                        
-            
                     <FormControl fullWidth >
                         <InputLabel htmlFor="my-input" >Ingrese su nombre y apellido</InputLabel>
                         <Input id="my-input" aria-describedby="my-helper-text" onChange={handleChange} type="text" name='name' />

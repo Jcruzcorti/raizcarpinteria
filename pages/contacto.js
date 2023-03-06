@@ -17,11 +17,9 @@ function Contacto() {
           gutterBottom variant="h7" 
           component="div"  
           className={styles.textContact} 
-          // data-aos="flip-left">
           >
-          A continuación podrás enviar tu consulta sobre cualquiera de nuestros productos en la web o alguna idea personalizada, y nuestro equipo te contestará a la brevedad
+          A continuación podrás enviar tu consulta sobre cualquiera de nuestros diseños en la web o alguna idea personalizada, y nuestro equipo te contestará a la brevedad
         </Typography>
-          {/* <h1>CONTACTO</h1> */}
           <ContactForm/>
         </main>
         <div className={styles.ButtonLinkHome}>

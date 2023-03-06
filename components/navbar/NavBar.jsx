@@ -22,8 +22,7 @@ import Link from 'next/link';
 const drawerWidth = 220;
 const navItems = [
  <Link href='/' className={styles.linknavbar} key={1}>INICIO</Link>,
- <Link href='/categorias' className={styles.linknavbar} key={2}>CATEGORÍAS</Link>, 
-//  <Link href='/sobrenosotros' className={styles.linknavbar} key={3}>SOBRE NOSOTROS</Link>,  
+ <Link href='/categorias' className={styles.linknavbar} key={2}>CATEGORÍAS</Link>,   
  <Link href='/contacto' className={styles.linknavbar } key={4}>CONTACTO</Link>
 ];
 
@@ -86,11 +85,6 @@ function DrawerAppBar(props) {
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-              {/* {
-              !mobileOpen
-              ?<Image src="/raizlogo.png" alt='logoraizcarpinteria' width={190} height={110} priority className={styles.imglogo}/>
-              :null
-            } */}
           </Typography>
           
           <Box sx={{ display: { xs: 'none', sm: 'block' ,marginRight:""} }}>
@@ -119,27 +113,14 @@ function DrawerAppBar(props) {
           }}
         >
           {drawer}
-          
-          
-        </Drawer>
-        
-      </Box>
-      {/* <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-        <Typography>
-          aa
-        </Typography>
-      </Box> */}
-      
+       
+        </Drawer>       
+      </Box>     
     </Box>
   );
 }
 
 DrawerAppBar.propTypes = {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window: PropTypes.func,
 };
 

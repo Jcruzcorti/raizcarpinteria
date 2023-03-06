@@ -11,17 +11,15 @@ function Categorias() {
 
   return (
     <>
-
-        <main className={styles.main}>
-        <Typography gutterBottom variant="h4" component="div" >
-            CATEGORÍAS
-          </Typography>
-          {/* <h1>CATEGORIAS</h1> */}
-          <ItemListContainer/>
-        </main>
-        <div className={styles.ButtonLinkHome}>
-          <Link href='/'><ButtonLinkHome/></Link>   
-        </div>
+      <main className={styles.main}>
+      <Typography gutterBottom variant="h4" component="div" >
+          CATEGORÍAS
+        </Typography>
+        <ItemListContainer/>
+      </main>
+      <div className={styles.ButtonLinkHome}>
+        <Link href='/'><ButtonLinkHome/></Link>   
+      </div>
     </>
   )
 }

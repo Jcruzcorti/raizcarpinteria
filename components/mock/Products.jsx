@@ -1,67 +1,7 @@
 export const productsData = [
+    
     {
-      id: 1,
-      img: '/cocina1.jpeg',
-      title: 'Cocina',
-      author: 'Sistema Gola',
-      category: 'Cocina',
-      description: 'Sistema Gola. Colores blanco laca combinado con Roble Kendal',
-      hasMorePhotos: false,
-    },
-    // {
-    //     id: 2,
-    //     img: '/ropero.jpeg',
-    //     title: 'Bed',
-    //     author: 'Ropero',
-    //     category: 'Cocina',
-    //     description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
-    // },
-    // {
-    //     id: 3,
-    //     img: '/ropero.jpeg',
-    //     title: 'Bed',
-    //     author: 'Ropero',
-    //     category: 'Cocina',
-    //     description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
-    // },
-    // {
-    //     id: 4,
-    //     img: '/ropero.jpeg',
-    //     title: 'Bed',
-    //     author: 'Ropero',
-    //     category: 'Cocina',
-    //     description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
-    // },
-    {
-        id: 2,
-        img: '/habitacion1.jpeg',
-        title: 'Habitación',
-        author: 'Cama niño',
-        category: 'Habitación',
-        description: ' Cama niño de Madera maciza Cama niño de Madera maciza',
-        hasMorePhotos: false,
-    },
-    {
-        id: 3,
-        img: '/habitacion2.jpeg',
-        title: 'Habitación',
-        author: 'Sistema Gola',
-        category: 'Habitación',
-        description: 'Sistema Gola. Color Paraíso combinado con blanco laca',
-        hasMorePhotos: false,
-    },
-    {
-        id: 4,
-        img: '/habitacion3.jpeg',
-        title: 'Habitación',
-        author: 'Ropero',
-        category: 'Habitación',
-        description: 'Respaldar color Atakama combinado blanco',
-        hasMorePhotos: false,
-    },
-
-    {
-        id: 5,
+        id: 1,
         img: '/placard1a.jpeg',
         img2: '/placard1b.jpeg',
         img3: '/placard1c.jpeg',
@@ -72,7 +12,7 @@ export const productsData = [
         hasMorePhotos: true,
     },
     {
-        id: 6,
+        id: 2,
         img: '/placard2a.jpeg',
         img2: '/placard2b.jpeg',
         title: 'Placard',
@@ -81,7 +21,45 @@ export const productsData = [
         description: 'Sistema corredizo. Colores Lino Chiaro combinado con blanco',
         hasMorePhotos: true,
     },
-        {
+    {
+        id: 3,
+        img: '/habitacion3.jpeg',
+        title: 'Habitación',
+        author: 'Ropero',
+        category: 'Habitación',
+        description: 'Respaldar color Atakama combinado blanco',
+        hasMorePhotos: false,
+    },
+
+    {
+        id: 4,
+        img: '/habitacion2.jpeg',
+        title: 'Habitación',
+        author: 'Sistema Gola',
+        category: 'Habitación',
+        description: 'Sistema Gola. Color Paraíso combinado con blanco laca',
+        hasMorePhotos: false,
+    },
+    {
+        id: 5,
+        img: '/habitacion1.jpeg',
+        title: 'Habitación',
+        author: 'Cama niño',
+        category: 'Habitación',
+        description: ' Cama niño de Madera maciza Cama niño de Madera maciza',
+        hasMorePhotos: false,
+    },
+    {
+        id: 6,
+        img: '/cocina1.jpeg',
+        title: 'Cocina',
+        author: 'Sistema Gola',
+        category: 'Cocina',
+        description: 'Sistema Gola. Colores blanco laca combinado con Roble Kendal',
+        hasMorePhotos: false,
+      },
+
+    {
         id: 7,
         img: '/baño1.jpeg',
         title: 'Baño',
@@ -118,36 +96,4 @@ export const productsData = [
         description: 'Escritorio cajonera de recepción. Colores Gaudi varillado, Torano combinado Blanco',
         hasMorePhotos: false,
     },
-    // {
-    //     id: 16,
-    //     img: '/ropero.jpeg',
-    //     title: 'Bed',
-    //     author: 'Ropero',
-    //     category: 'Living',
-    //     description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
-    // },
-    // {
-    //     id: 17,
-    //     img: '/ropero.jpeg',
-    //     title: 'Bed',
-    //     author: 'Ropero',
-    //     category: 'Living',
-    //     description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
-    // },
-    // {
-    //     id: 18,
-    //     img: '/ropero.jpeg',
-    //     title: 'Bed',
-    //     author: 'Ropero',
-    //     category: 'Living',
-    //     description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
-    // },
-    // {
-    //     id: 19,
-    //     img: '/ropero.jpeg',
-    //     title: 'Bed',
-    //     author: 'Ropero',
-    //     category: 'Living',
-    //     description: 'aaaasadsssadsss  sadssssasadsssdssssadsssssa'
-    // },
   ];
