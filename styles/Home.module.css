@@ -140,7 +140,8 @@ color: #c6a88b;
 
 .textInformationHome{
   color: #dbd9cf;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .TextHome {
@@ -288,7 +289,7 @@ color: #c6a88b;
 
 
 
-@media screen and(max-width: 768px){
+@media (max-width: 768px){
   
     .header{
       display: flex;
@@ -313,7 +314,7 @@ color: #c6a88b;
       justify-content: center;
       align-items: center;
       padding: 6rem;
-      min-height: 70vh;
+      min-height: 60vh;
       background-image: url(../public/baner.png);
       background-size: cover;
       background-repeat: no-repeat;
@@ -403,18 +404,18 @@ color: #c6a88b;
       align-items: center;
     }
     .imgLogoInformation{
-      width: 140px;
+      width: 180px;
       height: 100px;
     }
     .imgSocialMedia{
-      width: 38px;
+      width: 34px;
       height: auto;
       padding: 5px;
       text-decoration: none;
       color: #b59b81;
     }
     .imgSocialMedia2{
-      width: 38px;
+      width: 34px;
       height: auto;
       padding: 5px;
       text-decoration: none;
@@ -425,6 +426,9 @@ color: #c6a88b;
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin: 0px;
+      padding: 0px;
+      
     }
     
     .linkContact:hover{
@@ -433,8 +437,9 @@ color: #c6a88b;
     
     .textInformationHome{
       color: #dbd9cf;
-      margin: 0;
-      padding:0;
+      margin: 0px;
+      padding: 0px;
+      font-size: 14px;
     }
     
     .TextHome {
@@ -533,13 +538,13 @@ color: #c6a88b;
     
     .divAboutUs{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 0;
+      padding: 0rem;
       text-align:center;
-      padding: 0px;
-    
+      padding: 30px;
+      background-color: #dbd9cf;
       
     }
     
