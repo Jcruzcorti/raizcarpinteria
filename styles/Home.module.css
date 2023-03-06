@@ -388,11 +388,12 @@ color: #c6a88b;
     
     .informationHome{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-around;
       align-items: center;
       background-color: #555555;
-      padding: 70px;
+      padding: 30px;
+      gap: 20px;
       
     }
     
@@ -408,8 +409,8 @@ color: #c6a88b;
       align-items: center;
     }
     .imgLogoInformation{
-      width: 160px;
-      height: 120px;
+      width: 240px;
+      height: 100px;
     }
     .imgSocialMedia{
       width: 34px;
