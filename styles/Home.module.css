@@ -4,6 +4,7 @@
  justify-content: space-evenly;
  align-items: center; 
  padding: 1rem;
+ 
 }
 
 .main {
@@ -246,10 +247,13 @@ color: #c6a88b;
   padding: 3rem;
   text-align:center;
   padding: 100px;
-
+  background-color: #dbd9cf;
   
 }
 
+.divAboutUsText{
+  background-color: #dbd9cf;
+}
 
 .footer {
   display: flex;
@@ -314,7 +318,7 @@ color: #c6a88b;
       justify-content: center;
       align-items: center;
       padding: 6rem;
-      min-height: 60vh;
+      min-height: 90vh;
       background-image: url(../public/baner.png);
       background-size: cover;
       background-repeat: no-repeat;
@@ -404,8 +408,8 @@ color: #c6a88b;
       align-items: center;
     }
     .imgLogoInformation{
-      width: 180px;
-      height: 100px;
+      width: 160px;
+      height: 120px;
     }
     .imgSocialMedia{
       width: 34px;
@@ -439,7 +443,7 @@ color: #c6a88b;
       color: #dbd9cf;
       margin: 0px;
       padding: 0px;
-      font-size: 14px;
+      font-size: 12px;
     }
     
     .TextHome {
@@ -547,7 +551,10 @@ color: #c6a88b;
       background-color: #dbd9cf;
       
     }
-    
+
+    .divAboutUsText{
+      background-color: #dbd9cf;
+    }
     
     .footer {
       display: flex;
