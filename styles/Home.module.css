@@ -12,9 +12,10 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2rem;
   min-height: 100vh;
   background-color: #dbd9cf;
+  
   
 }
 .main2 {
@@ -311,6 +312,7 @@ color: #c6a88b;
       padding: 6rem;
       min-height: 100vh;
       
+      
     }
     .main2 {
       display: flex;
@@ -584,8 +586,10 @@ color: #c6a88b;
       padding: 5px;
       font-size: 16px;
     }
-
-
+/* 
+    .divContactForm{
+      
+    } */
     
     .footer {
       display: flex;

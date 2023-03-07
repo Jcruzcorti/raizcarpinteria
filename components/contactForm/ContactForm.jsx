@@ -154,22 +154,22 @@ function ContactForm() {
 
 <div data-aos="flip-left" className={styles.divContactForm} >
     <form action="" ref={form} onSubmit={sendEmail} >
-        <Grid container spacing={2} justifyContent='center' gap={2} my={0} >
-                <Grid md={6} item={true}>
+        <Grid container spacing={4} justifyContent='center' gap={2} my={0} >
+                <Grid md={6} xs={12} item={true}>
                     <FormControl fullWidth >
                         <InputLabel htmlFor="my-input" >Ingrese su nombre y apellido</InputLabel>
                         <Input id="my-input" aria-describedby="my-helper-text" onChange={handleChange} type="text" name='name' />
                         <FormHelperText id="my-helper-text">Campo requerido</FormHelperText>
                     </FormControl>
                 </Grid>
-                <Grid md={6} item={true}>
+                <Grid md={6} xs={12} item={true}>
                     <FormControl fullWidth>
                         <InputLabel htmlFor="my-input">Ingrese su email </InputLabel>
                         <Input id="my-inputc" aria-describedby="my-helper-textc" onChange={handleChange} type="email" name='email' />
                         <FormHelperText id="my-helper-textc">Campo requerido</FormHelperText>
                     </FormControl>
                 </Grid>
-                <Grid md={6} item={true}>
+                <Grid md={6} xs={12} item={true}>
                     <FormControl fullWidth>
                         <InputLabel htmlFor="my-input">Ingrese su teléfono </InputLabel>
                         <Input id="my-inputt" aria-describedby="my-helper-textt" onChange={handleChange} type="phone" name='phone'/>
@@ -177,7 +177,7 @@ function ContactForm() {
                     </FormControl>
                 </Grid>
 
-                <Grid md={6} item={true}>
+                <Grid md={6} xs={12} item={true}>
                     <FormControl fullWidth>
                     <InputLabel htmlFor="my-input">Escribe tu mensaje </InputLabel>
                         <Input id="my-inputa" aria-describedby="my-helper-texta" multiline onChange={handleChange} type="text" name='mensaje' />
@@ -185,7 +185,7 @@ function ContactForm() {
                     </FormControl>
                 </Grid>
                 
-                <Grid md={6} item={true}>
+                <Grid md={6} xs={12} item={true}>
                     <Button variant="outlined" type='submit'>Enviar</Button>
                 </Grid> 
                 
