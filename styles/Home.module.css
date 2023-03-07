@@ -409,7 +409,7 @@ color: #c6a88b;
       align-items: center;
     }
     .imgLogoInformation{
-      width: 240px;
+      width: 160px;
       height: 100px;
     }
     .imgSocialMedia{
@@ -440,11 +440,18 @@ color: #c6a88b;
     color: #c6a88b;
     }
     
+    .informationTextTittle{
+      color: #dbd9cf;
+      margin: 0px;
+      padding: 0px;
+      font-size: 18px;
+    }
+
     .textInformationHome{
       color: #dbd9cf;
       margin: 0px;
       padding: 0px;
-      font-size: 12px;
+      font-size: 14px;
     }
     
     .TextHome {
@@ -553,8 +560,24 @@ color: #c6a88b;
       
     }
 
-    .divAboutUsText{
+    .aboutUsTextTittle{
       background-color: #dbd9cf;
+      margin: 0px;
+      padding: 8px;
+      font-size: 24px;
+    }
+
+    .aboutUsText{
+      background-color: #dbd9cf;
+      margin: 0px;
+      padding: 5px;
+      font-size: 18px;
+    }
+    .aboutUsText2{
+      background-color: #dbd9cf;
+      margin: 0px;
+      padding: 5px;
+      font-size: 16px;
     }
     
     .footer {
