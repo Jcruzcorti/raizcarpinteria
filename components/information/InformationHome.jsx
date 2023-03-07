@@ -23,16 +23,16 @@ function InformationHome() {
 
 
       <div className={styles.informationText}  data-aos="fade-right">
-        <Typography gutterBottom variant="h4" component="div" className={styles.informationTextTittle}>
+        <Typography paragraph variant="h5" component="div" className={styles.informationTextTittle}>
           Raiz Carpintería de diseño
         </Typography>
-        <Typography gutterBottom variant="h6" component="div" className={styles.textInformationHome}>
+        <Typography paragraph variant="h6" component="div" className={styles.textInformationHome}>
           Córdoba Capital, Argentina
         </Typography>
-        <Typography gutterBottom variant="h6" component="div" className={styles.textInformationHome}>
+        <Typography paragraph variant="h6" component="div" className={styles.textInformationHome}>
           +543517635430
         </Typography>
-        <Typography gutterBottom variant="h6" component="div" className={styles.textInformationHome}>
+        <Typography paragraph variant="h6" component="div" className={styles.textInformationHome}>
           <Link href='/contacto' className={styles.linkContact}>raizcarpinteriadediseno@gmail.com</Link>
         </Typography>
 
