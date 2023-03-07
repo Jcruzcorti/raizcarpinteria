@@ -142,13 +142,16 @@ color: #c6a88b;
 .informationTextTittle{
   color: #dbd9cf;
   margin: 0px;
-  padding: 0px;
+  padding: 5px;
   font-size: 26px;
+  font-family: "Roboto","Helvetica","Arial",sans-serif
 }
 .textInformationHome{
   color: #dbd9cf;
   margin: 0px;
-  padding: 0px;
+  padding: 1px;
+  font-size: 20px;
+  font-family: "Roboto","Helvetica","Arial",sans-serif
 }
 
 .TextHome {
@@ -454,15 +457,17 @@ color: #c6a88b;
     .informationTextTittle{
       color: #dbd9cf;
       margin: 0px;
-      padding: 0px;
-      font-size: 16px;
+      padding: 6px;
+      font-size: 18px;
+      font-family: "Roboto","Helvetica","Arial",sans-serif
     }
 
     .textInformationHome{
       color: #dbd9cf;
       margin: 0px;
-      padding: 0px;
+      padding: 3px;
       font-size: 14px;
+      font-family: "Roboto","Helvetica","Arial",sans-serif
     }
     
     .TextHome {
