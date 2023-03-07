@@ -139,7 +139,12 @@
 .linkContact:hover{
 color: #c6a88b;
 }
-
+.informationTextTittle{
+  color: #dbd9cf;
+  margin: 0px;
+  padding: 0px;
+  font-size: 26px;
+}
 .textInformationHome{
   color: #dbd9cf;
   margin: 0px;
