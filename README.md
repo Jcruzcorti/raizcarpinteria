@@ -1,38 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to Raiz Carpintería de diseño!
 
-## Getting Started
+The project consists of developing a web app for Raiz Carpintería de Diseño, a young and committed factory, in charge of building personal spaces required by customers
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Project details:
+The project is worked with technologies such as JavaScript, Next.js, Material UI, and using the Email.js API. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It consists of 3 sections, the first one is the Home section where you can find a presentation banner in which you can also find information about the company and the contact from its social networks. The second one, shows the products designed and filtered with their detailed descriptions, and a modal to see the image bigger. The last section shows a contact form so that any person/company can send a message by mail with their respective data and message. Finally, at the bottom of the page is my portfolio in case you want to contact me through it
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Steps to view the site
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+In our default terminal, we clone the folder by typing "git clone" + link:
 
-To learn more about Next.js, take a look at the following resources:
+1- git clone https://github.com/Jcruzcorti/raizcarpinteria
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2- Then, we place ourselves in the root folder of the project, with the command "cd raizcarpinteria" and install all the dependencies inside with the command "npm install".
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3-Finally, in the terminal we carry out the command "npm run dev" or "yarn dev" and the web will open in the predetermined browser after a few seconds/minutes of waiting.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -8,7 +8,7 @@ export const productsData = [
         title: 'Placard',
         author: 'Ropero',
         category: 'Habitación',
-        description: 'Sistema corredizo. Colores Helsinkicombinado con blanco',
+        description: 'Sistema corredizo. Colores Helsinki combinado con blanco',
         hasMorePhotos: true,
     },
     {
@@ -27,7 +27,7 @@ export const productsData = [
         title: 'Habitación',
         author: 'Ropero',
         category: 'Habitación',
-        description: 'Respaldar color Atakama combinado blanco',
+        description: 'Respaldar color Atakama combinado con blanco',
         hasMorePhotos: false,
     },
 
@@ -46,7 +46,7 @@ export const productsData = [
         title: 'Habitación',
         author: 'Cama niño',
         category: 'Habitación',
-        description: ' Cama niño de Madera maciza Cama niño de Madera maciza',
+        description: ' Cama niño en habitación color Madera maciza ',
         hasMorePhotos: false,
     },
     {
@@ -65,7 +65,7 @@ export const productsData = [
         title: 'Baño',
         author: 'Ropero',
         category: 'Baño',
-        description: 'aaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaa',
+        description: '',
         hasMorePhotos: false,
     },
     {

@@ -12,7 +12,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 6rem;
   min-height: 100vh;
   background-color: #dbd9cf;
   
@@ -623,7 +623,7 @@ color: #c6a88b;
     
     .pFooter{
       font-family: 'Mukta Mahee', sans-serif;
-      font-size: 16px;
+      font-size: 12px;
       color: #141414;
       margin: 0;
     }
