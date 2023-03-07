@@ -12,7 +12,7 @@ function Categorias() {
   return (
     <>
       <main className={styles.main}>
-      <Typography gutterBottom variant="h4" component="div" >
+      <Typography gutterBottom variant="h4" component="div" className={styles.sectionTittle}>
           CATEGORÍAS
         </Typography>
         <ItemListContainer/>

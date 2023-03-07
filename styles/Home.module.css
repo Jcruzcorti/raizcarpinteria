@@ -325,6 +325,10 @@ color: #c6a88b;
     
     }
     
+    .sectionTittle{
+      font-size: 26px;
+    }
+
     .h2{
       font-size: 23px;
     
@@ -444,7 +448,7 @@ color: #c6a88b;
       color: #dbd9cf;
       margin: 0px;
       padding: 0px;
-      font-size: 18px;
+      font-size: 16px;
     }
 
     .textInformationHome{
@@ -462,7 +466,8 @@ color: #c6a88b;
     .textContact{
       margin: 20px;
       text-align: center;
-      max-width: 700px;
+      max-width: 0px;
+      min-width: 280px;
       padding-bottom: 40px;
     
     }
@@ -472,8 +477,8 @@ color: #c6a88b;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 450px;
-      height: 500px;
+      width: 300px;
+      height: 400px;
       
     }
     
@@ -579,6 +584,8 @@ color: #c6a88b;
       padding: 5px;
       font-size: 16px;
     }
+
+
     
     .footer {
       display: flex;

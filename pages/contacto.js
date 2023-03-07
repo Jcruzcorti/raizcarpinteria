@@ -10,7 +10,7 @@ function Contacto() {
     <>
 
         <main className={styles.main}>
-        <Typography gutterBottom variant="h4" component="div">
+        <Typography gutterBottom variant="h4" component="div" className={styles.sectionTittle}>
           CONTACTO
         </Typography>
         <Typography 
@@ -20,7 +20,9 @@ function Contacto() {
           >
           A continuación podrás enviar tu consulta sobre cualquiera de nuestros diseños en la web o alguna idea personalizada, y nuestro equipo te contestará a la brevedad
         </Typography>
+
           <ContactForm/>
+          
         </main>
         <div className={styles.ButtonLinkHome}>
           <Link href='/'><ButtonLinkHome/></Link>   

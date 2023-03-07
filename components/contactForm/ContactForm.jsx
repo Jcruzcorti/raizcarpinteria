@@ -153,7 +153,7 @@ function ContactForm() {
   return (
 
 <div data-aos="flip-left" className={styles.divContactForm} >
-    <form action="" ref={form} onSubmit={sendEmail}>
+    <form action="" ref={form} onSubmit={sendEmail} >
         <Grid container spacing={2} justifyContent='center' gap={2} my={0} >
                 <Grid md={6} item={true}>
                     <FormControl fullWidth >

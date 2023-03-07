@@ -51,7 +51,7 @@ export default function ItemListSelect({items}) {
 
     </div>
 
-      <Grid container spacing={2} justifyContent='center' gap={5} my={1}>
+      <Grid container spacing={0} justifyContent='center' gap={5} my={1}>
      
         {category===('All')
           ?items.map((item)=>(
