@@ -59,17 +59,17 @@ export const productsData = [
         hasMorePhotos: false,
       },
 
+    // {
+    //     id: 7,
+    //     img: '/baño1.jpeg',
+    //     title: 'Baño',
+    //     author: 'Ropero',
+    //     category: 'Baño',
+    //     description: '',
+    //     hasMorePhotos: false,
+    // },
     {
         id: 7,
-        img: '/baño1.jpeg',
-        title: 'Baño',
-        author: 'Ropero',
-        category: 'Baño',
-        description: '',
-        hasMorePhotos: false,
-    },
-    {
-        id: 8,
         img: '/oficina1.jpeg',
         title: 'Oficina',
         author: 'Ropero',
@@ -78,7 +78,7 @@ export const productsData = [
         hasMorePhotos: false,
     },
     {
-        id: 9,
+        id: 8,
         img: '/oficina2.jpeg',
         title: 'Oficina',
         author: 'Ropero',
@@ -87,7 +87,7 @@ export const productsData = [
         hasMorePhotos: false,
     },
     {
-        id: 10,
+        id: 9,
         img: '/oficina3a.jpeg',
         img2: '/oficina3b.jpeg',
         title: 'Oficina',
