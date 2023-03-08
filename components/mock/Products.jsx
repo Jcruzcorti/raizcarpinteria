@@ -83,7 +83,7 @@ export const productsData = [
         title: 'Oficina',
         author: 'Ropero',
         category: 'Oficina',
-        description: 'Consultorio con Sistema Gola. Colores Blanco',
+        description: 'Consultorio con Sistema Gola. Color Blanco',
         hasMorePhotos: false,
     },
     {
