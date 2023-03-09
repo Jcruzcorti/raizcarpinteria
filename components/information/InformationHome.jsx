@@ -47,8 +47,7 @@ function InformationHome() {
             rel="noopener noreferrer">
             <Image src="/instagram.png" alt="Mail Logo" width={72} height={16} className={styles.imgSocialMedia} priority/>
           </a>
-          <a href="https://wa.me/543517635430?text=Hola!%20Necesito%un%20presupuesto%20para%20realizar%20un%20mueble%20de:%20"
-          // https://api.whatsapp.com/send?phone=543517635430  
+          <a href="https://wa.me/543517635430?text=Hola!%20Necesito%20un%20presupuesto%20para%20realizar%20un%20mueble%20de:%20"
           target="_blank"
             rel="noopener noreferrer">
             <Image src="/wp5.png" alt="Mail Logo" width={72} height={16} className={styles.imgSocialMedia} priority/>
