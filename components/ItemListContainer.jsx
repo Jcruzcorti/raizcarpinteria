@@ -6,19 +6,27 @@ import ItemListSelect from './itemlist/ItemListSelect'
 
 function ItemListContainer() {
 
-  const [products, setProducts] =useState([])
- 
-  useEffect(()=>{
+    const [products, setProducts] =useState([])
+  
+    useEffect(()=>{
+      const fetchProducts = async () => {
 
-    const bringProduct = new Promise((resolve)=> {
-      setTimeout(()=>{
-        resolve(productsData)
-      },0)
-    });
-    bringProduct
-    .then((resolve)=> setProducts(resolve))
-  }
-  ,[])
+        try {    
+          const response = await new Promise(resolve => {
+            setTimeout(() => {
+              resolve(productsData);
+            }, 0);
+          });
+
+          setProducts(response);
+        } catch (error) {
+          console.error('Error en fetching de productos:', error);
+        }
+      };
+
+      fetchProducts();
+    }, []);
+
 
   return (
   
